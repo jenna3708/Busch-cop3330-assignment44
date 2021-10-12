@@ -6,6 +6,15 @@ package ex44;
  */
 
 //pseudocode
+//I will first need to create a new class to store all the products in
+//In the main i will need to create a json reader object
+//I will then need to get the json file
+//Create an array list for the products to be stored into
+//use a while loop to loop through the json file
+//then use a while loop to go around sorting through the array until they input one in the dictionary 
+//in the while loop take their input and search through the array list of product objects
+//once we find the correct product print out its information
+//then we end 
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
